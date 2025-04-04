@@ -51,8 +51,7 @@ A simple web application that allows users to add captions to a video by providi
   9
   ```
 
-## 📷 Screenshot
-![Video Subtitle App](screenshot.png)
+
 
 ## 🌟 Contributing
 Contributions are welcome! Feel free to fork the repo and submit a pull request with improvements.
