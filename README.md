@@ -1,12 +1,65 @@
-# React + Vite
+# 🎬 Video Subtitle App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web application that allows users to add captions to a video by providing a video URL, captions, and corresponding timestamps. The app will display the video with subtitles at the specified times.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Upload a direct `.mp4` video URL.
+- Enter captions and timestamps.
+- Subtitles appear dynamically during video playback.
+- Beautiful and responsive UI using Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Technologies Used
+- **React.js** - For building the UI.
+- **Tailwind CSS** - For styling.
+- **useState & useRef Hooks** - For managing state and video events.
 
-## Expanding the ESLint configuration
+## 📌 Installation & Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/video-subtitle-app.git
+   cd video-subtitle-app
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+4. Open the app in your browser at `http://localhost:3000/`
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📖 Usage
+1. Enter the direct `.mp4` video URL.
+2. Add captions (one per line).
+3. Add corresponding timestamps in seconds (one per line).
+4. Click **Generate Subtitles**.
+5. The video will play with the provided subtitles appearing at the specified timestamps.
+
+### 🎥 Example Usage
+- **Video URL**: [Big Buck Bunny](https://www.w3schools.com/html/mov_bbb.mp4)
+- **Captions:**
+  ```
+  Hello, welcome to the video!
+  This is an example subtitle.
+  The video is about to end.
+  ```
+- **Timestamps (in seconds):**
+  ```
+  2
+  5
+  9
+  ```
+
+## 📷 Screenshot
+![Video Subtitle App](screenshot.png)
+
+## 🌟 Contributing
+Contributions are welcome! Feel free to fork the repo and submit a pull request with improvements.
+
+## 📜 License
+This project is licensed under the MIT License.
+
+---
+Developed by **Sai Balaji**
+
